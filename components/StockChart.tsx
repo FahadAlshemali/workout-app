@@ -96,7 +96,7 @@ const StockChart = ({ info }: any) => {
         weights.push(info[i].weight)
     }
     let dataa = { chartData:{ data: [...weights] }}
-    console.log(dataa)
+   
     const data = buildData(dataa);
 
     return (

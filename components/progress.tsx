@@ -3,7 +3,7 @@ import React from 'react'
 import StockChart from './StockChart';
 
 const Progress = (userProgressChart: any) => {
-    console.log(userProgressChart)
+    
     // let weights = [];
     // for (let i = 0; i < userProgressChart?.userProgressChart?.users?.length; i++){
     //     weights.push("sdsds")

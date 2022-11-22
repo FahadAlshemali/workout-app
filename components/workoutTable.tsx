@@ -13,7 +13,7 @@ const WorkoutTable = ({ exercise, sets }: any) => {
     },
     onSubmit: async (values) => {
       addUserRecord(values.weight, values.reps,  step, exercise.workoutLineRelation[0].id)
-      console.log(values, step)
+      
     }
   })
   return (

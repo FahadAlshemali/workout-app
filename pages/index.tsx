@@ -5,8 +5,7 @@ import Progress from '../components/progress';
 import { prisma } from "../lib/prisma";
 
 const Home: NextPage = ({ personalRecords, userProgressChart, user }: any) => {
-  // console.log(userProgressChart)
-  // console.log(personalRecords)
+
   return (
     <>
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 bg-zinc-100 py-10 w-full min-h-screen">

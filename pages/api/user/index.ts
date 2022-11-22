@@ -6,7 +6,7 @@ export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse<any>
 ) {
-console.log(req.body)
+
     const {id, firstName, lastName, email, password, gender, age, height, weight } = req.body;
     // const data = await axios.get("https://randomuser.me/api/");
     const imgUrl = "qweqwe"

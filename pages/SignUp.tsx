@@ -28,7 +28,7 @@ export default function SignUp() {
           height: values.height
         }
       })
-        console.log(res)
+       
       await createUser(values, res.user?.id)
       await supabaseClient.auth.signIn({ email: values.email, password: values.password })
       router.push("/")

@@ -4,7 +4,7 @@ import { prisma } from "../../../lib/prisma";
 
 export default async function sendUserLog(req: NextApiRequest, res: NextApiResponse) {
     try {
-        console.log(req.body)
+        
         const { workoutLineId, reps, step, weight } = req.body
         const current = await getUser({ req, res })
         await prisma.userRecord.create({

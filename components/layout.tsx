@@ -14,12 +14,12 @@ import Image from 'next/image';
 const navigation = [
   { name: "Dashboard", href: "/", icon: HomeIcon, current: true },
   { name: "Browse WorkOut", href: "/workout", icon: BoltIcon, current: false },
-  {
-    name: "Calendar",
-    href: "/calenderLog",
-    icon: CalendarIcon,
-    current: false,
-  },
+  // {
+  //   name: "Calendar",
+  //   href: "/calenderLog",
+  //   icon: CalendarIcon,
+  //   current: false,
+  // },
   // { name: "Progress", href: "/progress", icon: ChartBarIcon, current: false },
 ];
 
